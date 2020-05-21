@@ -59,18 +59,16 @@
 				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string></string>
-				<key>script</key>
-				<string>./show.rb 2&gt; populate.log.err | tee populate.log</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>run.sh</string>
+				<string>populate.sh</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -88,14 +86,12 @@
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/aws-vault login --duration=12h $1 &gt; run.log 2&gt; run.log.err</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>login.sh</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
