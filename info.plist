@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.timurb.alfredapp.aws.console</string>
 	<key>category</key>
 	<string>Programming</string>
 	<key>connections</key>
@@ -59,6 +59,8 @@
 				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string></string>
+				<key>script</key>
+				<string></string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -86,6 +88,8 @@
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
+				<key>script</key>
+				<string></string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
