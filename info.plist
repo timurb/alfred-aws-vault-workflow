@@ -89,7 +89,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>/usr/local/bin/aws-vault login $1 &gt; run.log 2&gt; run.log.err</string>
+				<string>/usr/local/bin/aws-vault login --duration=12h $1 &gt; run.log 2&gt; run.log.err</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
